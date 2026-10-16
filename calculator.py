@@ -1,6 +1,6 @@
 def add(a,b):
   return a+b
-def subtr(act(a,b):
+def subtract(a,b):
   return a-b
 def multiply(a,b):
   return a*b
@@ -17,7 +17,7 @@ choice=input("enter choice(1/2/3/4):")
 num1=float(input("enter first number:"))
 num2=float(input("enter second number:"))
 if choice=='1':
-  print("result:",add(num,num2))
+  print("result:",add(num1,num2))
 elif choice=='2':
   print("result:",subtract(num1,num2))
 elif choice=='3':
